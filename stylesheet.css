@@ -1,0 +1,538 @@
+@import url(https://db.onlinewebfonts.com/c/2d60c9b87d54412cf25a8f5b4481c6d3?family=Merriweather+Sans);
+@import url(https://db.onlinewebfonts.com/c/6943fb6fd4200f3d073469325c6acdc9?family=Open+Sans+Light);
+@import url(https://db.onlinewebfonts.com/c/5fc6f4fd75e944a52a342ab2c7f100f1?family=Montserrat);
+body{
+  color: #2F2F33;
+
+    font-family: 'Open Sans', sans-serif , Verdana, Tahoma !important;
+
+    font-weight: 300;
+
+    line-height: 24px;
+
+   
+    font-size: 16px;
+  /*font-family: "Open Sans Light";*/
+  
+    
+  }
+  
+   
+
+   
+  
+  .front-section{
+    transform: translateX(120%);
+    text-align: center;
+    position: fixed;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .section-one h5{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  h1{
+      font-size: 85px;
+      font-weight: 900;
+      letter-spacing: 15px;
+      line-height: 2em;
+      margin: -40px;
+  }
+  
+  .front-section h3{
+      line-height: normal;
+      letter-spacing: 3.5px;
+      font-size: 19px;
+      margin: 20px;
+      
+  }
+  
+  .front-section h4{
+      margin-top: 1em;
+  }
+  
+  
+  .strok{
+      width: 48px;
+      height:1px;
+      display: block;
+      position: relative; 
+      left:25em;
+      top:2.5em;
+      margin: 3px;
+      background-color: seashell;
+  }
+  .strok-2{
+      width: 48px;
+      height:1px;
+      display: block;
+      position: relative; 
+      left:-2.1em;
+      top:-2em;
+      margin: 3px;;
+      background-color: seashell;
+  }
+
+/*section two*----------------------------*/
+
+.section-two{
+    display:block;
+  position: relative;
+  color: black;
+
+}
+
+nav{
+    border-bottom: .7px  solid gainsboro;
+    margin-bottom: -5em;
+    margin-top: -5em;
+    padding-left: 3em;
+    padding-top: -0em;
+    background: white;
+    transition: 1.5s;
+}
+
+li,a{
+  text-decoration:none;
+  color: black;
+  transition: 1.5s;
+}
+
+ul{
+  list-style:none;
+}
+
+ul li{
+  display:inline-block;
+  padding:1px 48px 3px 40px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  color: black;  
+   margin: 0 auto;
+   transition: 1.5s;
+  }
+
+  .t-width{
+    border:3px solid black ;
+    width: 5vw;
+    height: 1.6em;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+    margin: 0 auto;
+    transform: translateY(15px);
+    color:black ;
+    font-size: 40px;
+    transition: 1.5s;
+    
+}
+
+.t-width:hover{
+  background-color: darkblue;
+  color: white;
+  border:3px solid darkblue;
+  transition: 1.5s;
+}
+
+.intro-one {
+  max-width: 100vw;
+  max-height: 120vh;
+  padding-bottom: 10em;
+  text-align: center;
+  font-size:18px;
+  margin: -5em;
+  position: relative;
+  left: 4.4em;
+  overflow: hidden;
+}
+
+.intro-one h1{
+  font-size: 30px;
+  padding-top: 5em;
+  letter-spacing: 5px;
+  margin-bottom: 2em;
+  font-family: "Merriweather Sans";
+}
+
+.intro-one p{
+  padding-bottom: 5em;
+}
+
+.products{
+  width: 5%;
+  height:10%;
+  margin: 1em;
+  margin-right: -2.5em;
+  transform: translateX(4em);
+}
+
+.button-width{
+  display: inline-block;
+  background-color: black;
+  width: 3em;
+  height: 2px;
+  border-radius: 10px;
+  transform: translateX(3em);
+  position: relative;
+  top:30px;
+}
+
+
+
+.products-button{
+  border-top: 3px solid black;
+  background: none;
+  width: 14em;
+  height: 3em;
+  border: none;
+  transform: translateX(-4em);
+  position: relative;
+  top: 3.4em;
+  margin: -2em;
+}
+
+
+.products-button:hover{
+text-align: center;
+background-color: black;
+border : 1px dotted darkslategray ;
+animation-duration: 3s;
+}
+
+/*section-three*/
+
+.three{
+  display:flex;
+  color:white;
+  border: 1px dotted darkslategrey;
+  background-color: black;
+  text-align: left;
+  overflow: hidden;
+}
+.h-one h1{
+  font-family: "Merriweather Sans";
+  letter-spacing: normal;
+  font-size: 25px;
+  padding-top: 5em;
+  margin: 1.5em;
+  margin-left: 3em;
+  overflow: hidden;
+}
+
+.h-one p{
+  margin-left: 5em;
+  padding-top: -2em;
+}
+
+input{
+    border-radius: 25px;
+    background-color: white;
+    transform: translatex(6em);
+    height: 20PX;
+    width: 100px;
+    color: black;
+    font-size: smaller;
+    border: none;
+}
+.flex{
+  display: inline-block ;
+  position: relative;
+  top:  -25em;
+  left: 26em ;
+  z-index: 1 ;
+  overflow: hidden;
+}
+
+.col-sm-4{
+  width: 20vw;
+  height: auto;
+}
+
+/*copy --paste*/
+.section-four{
+  margin-top: -21em;
+  background-color: whitesmoke;
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+ 
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+  
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 9px;
+  width: 34px;
+  margin: 0 2px;
+  background-color: #bbb;
+ 
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+/*section fifth-------------------------------------------------*/
+
+
+.fifth{
+  display: flex;
+  position: relative;
+  background-color: black;
+  color: white;
+  padding-bottom: 8em;
+  
+}
+
+.fifth-flex h1{
+  display: block;
+  font-size: 35px;
+  margin: 4em;
+  letter-spacing: normal;
+  line-height: 1.5em;
+  font-family: "Merriweather Sans";
+  transform: translateY(-1.4em);
+}
+
+.flex-fifth{
+  margin: auto;
+  position: relative;
+  left: -5%;
+  top: 1.5em;
+}
+
+.flex-fifth p{
+  margin-bottom: -.7em;
+}
+
+.more{
+  margin-top: 2em;
+}
+
+
+.fifth-width{
+  display: inline-block;
+  width: 15em;
+  height: 2px;
+  background-color: oldlace;
+  margin: auto;
+}
+
+/*----sixth section--------------*/
+
+.sixth{
+  display: block;
+  position: relative;
+  background-color: white;
+  color: black;
+  text-align: center;
+  letter-spacing: normal;
+
+}
+
+.sixth-intro h1{
+  width: 100%;
+  height: auto;
+  font-size: 25px;
+  letter-spacing: normal;
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+.fa{
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-sm-3{
+  width: 25%;
+  margin: -1em;
+  transform: translateX(1.5em);
+  overflow: hidden;
+  padding-bottom: 7em;
+}
+
+.team-holder{
+  position: relative;
+  left: 3em;
+display: block;
+padding-top: 10em;
+}
+
+.img-responsive{
+  display: block;
+  max-width: 90%;
+  height: auto;
+
+
+
+}
+
+
+.team-holder .social-icons {
+  margin-top: 15px;
+  font-size: 16px;
+  
+}
+
+.team-info{
+  text-align: start;
+}
+
+
+.social-icons ul{
+  padding: 0%;
+  margin-top: 0;
+margin-bottom: 10px;
+}
+
+.social-icons li{
+  display: inline-block;
+  float: none;
+  text-align: center;
+  line-height: 26px;
+  margin-right: 5px;
+  padding-left:-20px;
+}
+
+.ul-li li{
+  padding-left: 0px;
+  padding-right: 0px;
+  border-top-width: 0px;
+  border-top-style: solid;
+  transform: translateX(-2.5em);
+  
+}
+
+
+p{
+
+  margin-bottom: 20px;
+  margin: 0 0 10px;
+  font-family: 'Open Sans', sans-serif , Verdana, Tahoma !important;
+  font-weight: 300;
+}
+
+.team-holder .team-info .name{
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+  color:#26292a;
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+
+}
+
+/*------section seven---*/
+
+.seven{
+  display: block;
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10em;
+  overflow: hidden;
+  margin-left: -3em;
+ font-size: 15px;
+}
+
+.seven-section{
+  padding: 10em;
+}
+
+
+.seven-section p{
+  padding-right: 5em;
+  margin-top: 2em;
+}
+
+.seven-section a{
+  color: white;
+  font-size: 28px;
+}
+
+.seven-section-two{
+  padding: 1em;
+  padding-top: 2em;
+}
+
+.block-two{
+  position: relative;
+  left: 14em;
+  top:-8em;
+}
+
+.seven-section-three{
+  margin-top: -3em;
+}
+
+.block-three{
+  position: relative;
+  left: 14em;
+  top:-8em;
+}
+
