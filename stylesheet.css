@@ -1,42 +1,56 @@
-@import url(https://db.onlinewebfonts.com/c/2d60c9b87d54412cf25a8f5b4481c6d3?family=Merriweather+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url(https://db.onlinewebfonts.com/c/6943fb6fd4200f3d073469325c6acdc9?family=Open+Sans+Light);
-@import url(https://db.onlinewebfonts.com/c/5fc6f4fd75e944a52a342ab2c7f100f1?family=Montserrat);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body{
   color: #2F2F33;
 
     font-family: 'Open Sans', sans-serif , Verdana, Tahoma !important;
-
     font-weight: 300;
-
     line-height: 24px;
-
-   
     font-size: 16px;
-  /*font-family: "Open Sans Light";*/
   
+    
+  /*font-family: "Open Sans Light";*/
+  z-index: 0;
+    
+  }
+ 
+  :root{
+    --opensans: "Open Sans Light";
+    --marri:'Merriweather', serif;
+    --mont:'Montserrat', sans-serif;
+    --openlight:'Open Sans', sans-serif;
+    --dark-blue:#333440;
     
   }
   
+  .container{
+    overflow: hidden;
+  }
+
+
+  .home{
+    position: fixed;
+    width: 500px;
+    top:10em;
+    left: 25em;
+    text-align: center;
+    color: white;
+    
+  }
    
 
    
   
-  .front-section{
-    transform: translateX(120%);
-    text-align: center;
-    position: fixed;
-    color: white;
-    overflow: hidden;
-  }
+ 
   
-  .section-one h5{
-    justify-content: center;
-    align-items: center;
+.home h5{
     padding-bottom: 30px;
     font-weight: 500;
   }
   
-  h1{
+ .home h1{
       font-size: 85px;
       font-weight: 900;
       letter-spacing: 15px;
@@ -44,7 +58,7 @@ body{
       margin: -40px;
   }
   
-  .front-section h3{
+  .home h3{
       line-height: normal;
       letter-spacing: 3.5px;
       font-size: 19px;
@@ -52,7 +66,7 @@ body{
       
   }
   
-  .front-section h4{
+  .home h4{
       margin-top: 1em;
   }
   
@@ -62,8 +76,8 @@ body{
       height:1px;
       display: block;
       position: relative; 
-      left:25em;
-      top:2.5em;
+      left:27em;
+      top:2.2em;
       margin: 3px;
       background-color: seashell;
   }
@@ -73,97 +87,118 @@ body{
       display: block;
       position: relative; 
       left:-2.1em;
-      top:-2em;
+      top:-2.1em;
       margin: 3px;;
       background-color: seashell;
   }
 
 /*section two*----------------------------*/
 
-.section-two{
+.display-1{
     display:block;
   position: relative;
   color: black;
-
+  -top: 2em;
+  width: 100%;
+  height: 110vh;  
+  z-index: 999;
+  font-size: 10px;
+   overflow: hidden;
 }
 
-nav{
+.navbar{
+    
     border-bottom: .7px  solid gainsboro;
-    margin-bottom: -5em;
-    margin-top: -5em;
-    padding-left: 3em;
-    padding-top: -0em;
+    z-index: 16;
     background: white;
-    transition: 1.5s;
-}
+    width: 1500px;
+    height: 12%;
+    font-size: 20px;
+    display: fl;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--mont);
+    transform: translateX(-13em);
+    font-size: 13px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+   
+  }
 
 li,a{
-  text-decoration:none;
-  color: black;
-  transition: 1.5s;
+  text-decoration: none;
+  color: #333440;
+  padding: 10px 30px 0px 50px;
+  margin: -10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
 }
 
-ul{
+.navbar ul li a{
+  text-decoration: none;
+}
+
+
+.nav-links{
   list-style:none;
 }
 
-ul li{
+.nav-links li{
   display:inline-block;
-  padding:1px 48px 3px 40px;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  margin-top: 10px;
-  color: black;  
-   margin: 0 auto;
-   transition: 1.5s;
-  }
+  padding:0px 20px;
+  
+}
 
   .t-width{
-    border:3px solid black ;
+    border:4px solid #333440 ;
     width: 5vw;
-    height: 1.6em;
+    height: 70px;
     display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
     margin: 0 auto;
-    transform: translateY(15px);
-    color:black ;
+    transform: translateY(-10px);
+    color:#333440 ;
     font-size: 40px;
-    transition: 1.5s;
-    
+    transition: 1s;
+    margin-top: .4em;
 }
 
 .t-width:hover{
-  background-color: darkblue;
+  background-color: #333440;
   color: white;
-  border:3px solid darkblue;
-  transition: 1.5s;
+  transition: 1s;
 }
 
-.intro-one {
-  max-width: 100vw;
-  max-height: 120vh;
-  padding-bottom: 10em;
+
+/*---navbar end--*/
+
+
+
+
+.intro {
   text-align: center;
-  font-size:18px;
-  margin: -5em;
-  position: relative;
-  left: 4.4em;
-  overflow: hidden;
+  padding-top: 15em;
+  color: var(--dark-blue);
 }
 
-.intro-one h1{
-  font-size: 30px;
-  padding-top: 5em;
-  letter-spacing: 5px;
-  margin-bottom: 2em;
-  font-family: "Merriweather Sans";
+.intro h1{
+  font-family: var(--marri);
+ 
 }
 
-.intro-one p{
-  padding-bottom: 5em;
+.intro p{
+  font-size: 20px;
+  padding-top: 2em;
+  font-family: var(--openlight);
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 
 .products{
@@ -172,83 +207,115 @@ ul li{
   margin: 1em;
   margin-right: -2.5em;
   transform: translateX(4em);
+  display: flex;
+  transform: translateX(5em);
 }
 
-.button-width{
+.img-fluid{
+  transform: translateX(6em);
+  padding-bottom: 3em;
+}
+
+.top{
   display: inline-block;
   background-color: black;
-  width: 3em;
+  width: 5em;
   height: 2px;
   border-radius: 10px;
-  transform: translateX(3em);
+  transform: translateX(em);
+  margin-bottom: -3em;
   position: relative;
   top:30px;
 }
 
 
 
-.products-button{
+.btn-group-toggle{
   border-top: 3px solid black;
-  background: none;
-  width: 14em;
-  height: 3em;
+  background:none;
+  font-size: 10px;
+  width: 25em;
+  height: 5.5em;
   border: none;
-  transform: translateX(-4em);
+  transform: translateX(-1.5em);
   position: relative;
   top: 3.4em;
   margin: -2em;
+  padding: -5em;
+  transition: 1s ease;
 }
 
 
-.products-button:hover{
+.btn-group-toggle:hover{
 text-align: center;
-background-color: black;
+background-color:var(--dark-blue);
 border : 1px dotted darkslategray ;
-animation-duration: 3s;
+animation-duration: 1s;
 }
 
+.idea{
+  padding: 5em;
+}
+
+.idea-1{
+  transform: translateX( );
+}
 /*section-three*/
 
-.three{
-  display:flex;
-  color:white;
-  border: 1px dotted darkslategrey;
-  background-color: black;
-  text-align: left;
+.display-2{
   overflow: hidden;
+  color:white;
+  background-color: var(--dark-blue); 
+  width: 100vw; 
+  height: 100vh;
 }
-.h-one h1{
+
+.logos{
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top:-6em;
+  left: 1em;
+  overflow: hidden;
+
+}
+
+.flex img{
+  width: 25%;
+  height: auto;
+}
+
+.col-sm-8{
+padding:1em ;
+}
+
+.col-sm-8 h1{
   font-family: "Merriweather Sans";
   letter-spacing: normal;
-  font-size: 25px;
-  padding-top: 5em;
-  margin: 1.5em;
-  margin-left: 3em;
+  font-size: 35px;
   overflow: hidden;
+  z-index: 1;
 }
 
-.h-one p{
-  margin-left: 5em;
-  padding-top: -2em;
+.col-sm-8 p{
+  font-size: 16px;
+  color: #888;
+  line-height: 30px;
 }
 
-input{
+.input{
     border-radius: 25px;
     background-color: white;
-    transform: translatex(6em);
-    height: 20PX;
-    width: 100px;
+    transform: translateY(-5em);
+    height: 30PX;
+    width: 120px;
     color: black;
-    font-size: smaller;
+    font-weight: bold;
+    font-size: 10PX;
     border: none;
 }
 .flex{
-  display: inline-block ;
-  position: relative;
-  top:  -25em;
-  left: 26em ;
-  z-index: 1 ;
-  overflow: hidden;
+  z-index: 4;
 }
 
 .col-sm-4{
@@ -256,15 +323,12 @@ input{
   height: auto;
 }
 
-/*copy --paste*/
-.section-four{
-  margin-top: -21em;
-  background-color: whitesmoke;
-}
+/*display-3--------------------*/
+
+
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-;
 }
 
 /* Slides */
@@ -274,19 +338,13 @@ input{
   text-align: center;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: 30px;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
+.mySlides{
   font-size: 20px;
-  user-select: none;
+
 }
+
+/* Next & previous buttons */
+
 
 /* Position the "next button" to the right */
 .next {
@@ -304,7 +362,7 @@ input{
 /* The dot/bullet/indicator container */
 .dot-container {
     text-align: center;
-    padding: 20px;
+    margin-top: -50px;
   
 }
 
@@ -329,9 +387,11 @@ input{
 q {font-style: italic;}
 
 /* Add a blue color to the author */
-.author {color: cornflowerblue;}
-
-/*section fifth-------------------------------------------------*/
+.author {color:gray;}
+.author{
+  font-size: 18px;
+}
+/*---------section fifth----------------------------------------*/
 
 
 .fifth{
