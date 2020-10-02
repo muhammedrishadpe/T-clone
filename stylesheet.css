@@ -343,9 +343,6 @@ padding:1em ;
 
 }
 
-/* Next & previous buttons */
-
-
 /* Position the "next button" to the right */
 .next {
   position: absolute;
@@ -394,44 +391,61 @@ q {font-style: italic;}
 /*---------section fifth----------------------------------------*/
 
 
-.fifth{
+.display-4{
   display: flex;
   position: relative;
-  background-color: black;
+  width: 100%;
+  height: 90vh;
+  background-color:var(--dark-blue);
   color: white;
-  padding-bottom: 8em;
+
   
 }
 
-.fifth-flex h1{
+.display-4 h1{
   display: block;
-  font-size: 35px;
+  font-size: 37px;
   margin: 4em;
+  margin-left: 3em;
   letter-spacing: normal;
   line-height: 1.5em;
   font-family: "Merriweather Sans";
   transform: translateY(-1.4em);
 }
 
-.flex-fifth{
-  margin: auto;
+.h-one{
+  letter-spacing: 1px;
+}
+
+.about-row{
+ display: block;
+ font-size: 15px;
+ margin-top: 7.5em;
+}
+
+.about-row p{
+  margin: 2em;
+  transform: translateX(-2em);
+  font-size: 17px;
+  line-height: 25px;
+  color: #888;
+}
+
+.about-row-two{
+
   position: relative;
-  left: -5%;
-  top: 1.5em;
+  left: -1em;
+  top: 6.5em;
+  font-size: 17px;
+  line-height: 25px;
+  color: #888;
+  display: block;
+
 }
 
-.flex-fifth p{
-  margin-bottom: -.7em;
-}
-
-.more{
-  margin-top: 2em;
-}
-
-
-.fifth-width{
+.width{
   display: inline-block;
-  width: 15em;
+  width: 18em;
   height: 2px;
   background-color: oldlace;
   margin: auto;
