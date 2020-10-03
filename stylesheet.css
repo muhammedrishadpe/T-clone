@@ -6,9 +6,7 @@ body{
   color: #2F2F33;
     box-sizing:border-box;
     font-family: 'Open Sans', sans-serif , Verdana, Tahoma !important;
-    font-weight: 300;
     line-height: 24px;
-    font-size: 16px;
    box-sizing: border-box;
     
   /*font-family: "Open Sans Light";*/
@@ -27,7 +25,6 @@ body{
   
   .container{
     overflow: hidden;
-    box-sizing:border-box;
   }
 
 
@@ -51,13 +48,15 @@ body{
     font-weight: 500;
   }
   
- .home h1{
-      font-size: 85px;
-      font-weight: 900;
-      letter-spacing: 15px;
-      line-height: 2em;
-      margin: -40px;
-  }
+ .dashed-shadow{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 90px;
+  letter-spacing: 15px;
+  margin: 0 0 20px;
+  color: #fff;
+    }
   
   .home h3{
       line-height: normal;
@@ -77,8 +76,8 @@ body{
       height:1px;
       display: block;
       position: relative; 
-      left:27em;
-      top:2.2em;
+      left:28em;
+      top:2.5em;
       margin: 3px;
       background-color: seashell;
   }
@@ -87,7 +86,7 @@ body{
       height:1px;
       display: block;
       position: relative; 
-      left:-2.1em;
+      left:-1.7 em;
       top:-2.1em;
       margin: 3px;;
       background-color: seashell;
@@ -264,6 +263,7 @@ animation-duration: 1s;
 /*section-three*/
 
 .display-2{
+  position: relative;
   overflow: hidden;
   color:white;
   background-color: var(--dark-blue); 
@@ -452,7 +452,7 @@ q {font-style: italic;}
   margin: auto;
 }
 
-/*----sixth section--------------*/
+/*----fifth section--------------*/
 
 .display-5{
   display: block;
@@ -569,53 +569,143 @@ p{
 
 }
 
-/*------section seven---*/
+/*------section sixth---*/
 
-.seven{
-  display: block;
+.display-6{
   position: relative;
-  background-color: black;
-  width: 100%;
-  height: auto;
-  margin-bottom: 10em;
+  background-color:var(--dark-blue);
+  color: aliceblue;
+  width: 100vw;
+  height: 130vh;
   overflow: hidden;
-  margin-left: -3em;
- font-size: 15px;
+  padding: 5em;
+
 }
 
-.seven-section{
-  padding: 10em;
+.intro-6{
+  padding: 2em;
 }
 
 
-.seven-section p{
+.intro-6 p{
   padding-right: 5em;
   margin-top: 2em;
 }
 
-.seven-section a{
+.intro-6 a{
   color: white;
-  font-size: 28px;
+  font-size: 30px;
+  position: relative;
+left: -1.5em;
+font-family: var(--marri);
 }
 
-.seven-section-two{
+.div-two{
   padding: 1em;
   padding-top: 2em;
+    float: left;
 }
 
-.block-two{
+.two{
+  margin-left: -17em;
+}
+
+.three{
+  margin-left: -6em;
+}
+
+.div-two-1{
   position: relative;
-  left: 14em;
-  top:-8em;
+  left: 1em;
+  top: 2em;
 }
 
-.seven-section-three{
-  margin-top: -3em;
-}
+/*----div----*/
 
-.block-three{
+.text-center{
   position: relative;
-  left: 14em;
-  top:-8em;
+  max-width: 100vw;
+  height: 20vh;
+  color: black;
+  background-color: white;
 }
 
+.text-center h3{
+  transform: translateY(2em);
+}
+
+/*section-7----*/
+
+
+.display-7{
+  position: relative;
+  max-width: 100vw;
+  height: 100vh;
+  background-color:#F4F4F9;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding-top: 7em;
+  padding-left: 4em;
+}
+
+#name{
+  width: 500px;
+  height:43px;
+  border-radius: 1px;
+  border: none;
+  background-color: white;
+  padding-left: 1em;
+  font-size: 13px;
+}
+#email{
+  width: 500px;
+  height:43px;
+  border-radius: 1px;
+  border: none;
+  background-color: white;
+  font-size: 13px;
+  padding-left: 1em;
+}
+
+#phone{
+  width: 500px;
+  height:43px;
+  border-radius: 1px;
+  border: none;
+  background-color:white;
+  padding-left: 1em;
+  font-size: 13px;
+}
+
+.form-two{
+  margin-left: -10em;
+}
+
+#textarea{
+  width: 500px;
+  height:90px;
+  border-radius: 1px;
+  border: none;
+  background-color: white;
+  padding: 1em;
+  font-size: 13px;
+}
+
+
+#form-button{
+  width: 500px;
+  height:43px;
+  border-radius: 1px;
+  border: none;
+  background-color: var(--dark-blue);
+  padding-left: 1em;
+  margin-top: 2em;
+  font-size: 13px;
+  color: white;
+}
