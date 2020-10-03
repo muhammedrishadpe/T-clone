@@ -4,12 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body{
   color: #2F2F33;
-
+    box-sizing:border-box;
     font-family: 'Open Sans', sans-serif , Verdana, Tahoma !important;
     font-weight: 300;
     line-height: 24px;
     font-size: 16px;
-  
+   box-sizing: border-box;
     
   /*font-family: "Open Sans Light";*/
   z-index: 0;
@@ -27,6 +27,7 @@ body{
   
   .container{
     overflow: hidden;
+    box-sizing:border-box;
   }
 
 
@@ -453,23 +454,24 @@ q {font-style: italic;}
 
 /*----sixth section--------------*/
 
-.sixth{
+.display-5{
   display: block;
   position: relative;
   background-color: white;
-  color: black;
+  color: var(--dark-blue);
   text-align: center;
   letter-spacing: normal;
-
+ font-family: var(--opensans);
 }
 
-.sixth-intro h1{
+.intro-5 h1{
   width: 100%;
   height: auto;
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: normal;
   padding-top: 5em;
   padding-bottom: 3em;
+  font-family: var(--marri);
 }
 .fa{
   border: 2px solid black;
@@ -481,49 +483,56 @@ q {font-style: italic;}
   align-items: center;
 }
 
-.col-sm-3{
-  width: 25%;
-  margin: -1em;
-  transform: translateX(1.5em);
-  overflow: hidden;
-  padding-bottom: 7em;
+.teams-full{
+
+display: flex;
+font-size: 15px;
+position: relative;
+left: 1em;
 }
 
-.team-holder{
+.icons ul li a{
+  margin-left: -4em;
+  position: relative;
+  left: -1em;
+}
+
+.team-info{
+
+    text-align: start;  
+    position: relative;
+    left: 1em;
+}
+
+.team{
   position: relative;
   left: 3em;
 display: block;
 padding-top: 10em;
 }
 
-.img-responsive{
-  display: block;
-  max-width: 90%;
+.team img{
+  max-width: 23vw;
   height: auto;
-
-
-
+  padding: 1em;
 }
 
 
-.team-holder .social-icons {
-  margin-top: 15px;
-  font-size: 16px;
+.team .icons{
+  margin-left: 5em;
+  font-size: px;
   
 }
 
-.team-info{
-  text-align: start;
-}
 
 
-.social-icons ul{
+.icons ul{
   padding: 0%;
   margin-top: 0;
 margin-bottom: 10px;
 }
 
-.social-icons li{
+.icons  li{
   display: inline-block;
   float: none;
   text-align: center;
@@ -532,7 +541,7 @@ margin-bottom: 10px;
   padding-left:-20px;
 }
 
-.ul-li li{
+.icons ul li{
   padding-left: 0px;
   padding-right: 0px;
   border-top-width: 0px;
@@ -550,7 +559,7 @@ p{
   font-weight: 300;
 }
 
-.team-holder .team-info .name{
+.team .team-info h4{
   font-size: 18px;
   font-family: 'Merriweather', serif;
   color:#26292a;
